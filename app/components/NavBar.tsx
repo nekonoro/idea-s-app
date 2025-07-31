@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { supabase } from '../../lib/supabaseClient'
+import { supabase } from '../../utils/supabase';
 import { useRouter } from 'next/navigation'
 import type { User } from '@supabase/supabase-js'
 

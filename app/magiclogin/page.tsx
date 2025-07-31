@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { supabase } from '../../lib/supabaseClient'
+import { supabase } from '../../utils/supabase';
 
 export default function MagicLoginPage() {
   const [email, setEmail] = useState('')
